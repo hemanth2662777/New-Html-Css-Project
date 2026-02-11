@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  background-image: linear-gradient(
+    45deg,
+    hsl(194deg 93% 61%) 0%,
+    hsl(196deg 94% 60%) 6%,
+    hsl(198deg 95% 60%) 12%,
+    hsl(200deg 96% 61%) 17%,
+    hsl(202deg 95% 62%) 22%,
+    hsl(205deg 94% 63%) 27%,
+    hsl(208deg 92% 65%) 31%,
+    hsl(212deg 90% 66%) 35%,
+    hsl(216deg 85% 68%) 39%,
+    hsl(222deg 80% 69%) 43%,
+    hsl(228deg 73% 70%) 47%,
+    hsl(237deg 65% 71%) 50%,
+    hsl(248deg 59% 69%) 54%,
+    hsl(258deg 54% 66%) 57%,
+    hsl(269deg 49% 63%) 60%,
+    hsl(279deg 45% 59%) 63%,
+    hsl(289deg 41% 55%) 66%,
+    hsl(300deg 37% 52%) 69%,
+    hsl(309deg 42% 51%) 72%,
+    hsl(316deg 47% 49%) 75%,
+    hsl(321deg 54% 48%) 78%,
+    hsl(326deg 61% 46%) 81%,
+    hsl(329deg 70% 44%) 85%,
+    hsl(331deg 81% 41%) 90%,
+    hsl(332deg 100% 37%) 100%
+  );
+}
+
+nav {
+  background-color: transparent;
+  text-align: right;
+  margin-left: 690px;
+  position: fixed;
+  padding-top: 5px;
+  z-index: 1;
+}
+.fixed {
+  position: fixed;
+}
+
+.hea {
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.hea-li {
+  margin: 30px auto;
+  display: inline;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+  margin: 27px auto;
+}
+section {
+  text-align: center;
+  padding: 2px 300px;
+  margin: 2px auto;
+  font-size: 27px;
+}
+
+.about-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+
+.ul {
+  display: inline-block;
+}
+
+h2 {
+  color: #982598;
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <fieldset>
+    <legend>Personal Details</legend>
+    <form action="">
+      <table>
+      <tr>
+      <td><label for="name">First Name</label></td>
+      <td><input type="name" name="name" id="name" /></td>
+      </tr>
+      <tr>
+      <td><label for="sname">Surname</label></td>
+      <td><input type="sname" name="sname" id="sname"></td>
+      </tr>
+      <tr>
+      <td><label for="tel">Phone No</label></td>
+      <td><input type="tel" name="tel" id="tel"></td>
+      </tr>
+      <tr>
+      <td><label for="Email">Email</label></td>
+      <td><input type="Email" name="Email" id="Email"></td>
+      </tr>
+      <tr>
+      <td><label for="Password">Password</label></td>
+      <td><input type="Password" name="Password" id="Password"></td>
+      </tr>
+      <tr>
+      <td><label for="cPassword">Confirm Password</label></td>
+      <td><input type="cPassword" name="cPassword" id="cPassword"></td>
+      </tr>
+      <tr>
+      <td><label for="date">D.O.B</label></td>
+      <td><input type="date" name="date" id="date"></td>
+      </tr>
+      <tr>
+      <td><label for="ge">Gender Choose</label></td>
+      <td><input type="radio" name="ge">Male <input type="radio" name="ge">Female <input type="radio" name="ge">Others</td>
+      </tr>
+      <tr>
+      <td><label for="sc">Select Country</label></td>
+      <td><select name="sc" id="sc">
+        <option value="India">INDIA</option>
+        <option value="Others">OTHER'S</option>
+      </tr>
+      <tr>
+      <td><label for="file">Upload Resume</label></td>
+      <td><input type="file" name="file" id="file"></td>
+      </tr>
+      </table> 
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>Course Details</legend>
+        <form action="">
+            <table>
+                <tr><td><label for="cd">Select Course</label></td>
+                <td><select name="cd" id="cd">
+                    <option name="cd" value="JAVA">JAVA</option>
+                    <option name="cd" value="HTML/CSS">HTML/CSS</option>
+                    <option name="cd" value="SQL">SQL</option>
+                </select></td></tr>
+                <tr><td><label for="ct">Course Type</label></td>
+                <td><input name="ct" type="radio" >ONLINE</td><br><td><input name="ct" type="radio">OFFLINE <br>
+                </td>
+                </tr>
+                <tr><td><label for="f">Feedback</label></td>
+                <td><textarea name="f" id="f" rows="5" cols="25"></textarea></td></tr>
+            </table>
+
+
+        </form>
+    </fieldset><br>
+    <button>SUBMIT</button>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(#a7e399);
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: #ff204e;
+  font-size: 45px;
+  background: transparent;
+  text-shadow: 0px 0px 30px #aa047b;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding: 30px;
+}
+h2 {
+  background-color: transparent;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px 10px;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0px 0px 20px #000000;
+  -webkit-text-stroke: 1px #4b4646;
+  font-size: 30px;
+}
+h3.song {
+  background-color: transparent;
+  color: #051ef7;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px 10px;
+  width: fit-content;
+
+  text-align: center;
+  text-shadow: 0px 0px 20px #014b04;
+  -webkit-text-stroke: 1px #000000;
+  font-size: 20px;
+}
+audio {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+h3 {
+  color: #051ef7;
+}
+img,
+.vid {
+  border: 2px solid #000000;
+  box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+p {
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
